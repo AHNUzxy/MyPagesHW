@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>羽毛球运动</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            color: #555;
+        }
+
+        h1 {
+            text-align: center;
+            color: #7ab;
+            margin-bottom: 30px;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #9bc;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #7a9;
+        }
+
+        h2 {
+            color: #a9c;
+            margin-top: 35px;
+        }
+
+        .section-green h2 { color: #9b9; }
+        .section-orange h2 { color: #ca9; }
+        .section-blue h2 { color: #9ac; }
+
+        p {
+            text-indent: 2em;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 25px 0;
+        }
+
+        .image-container svg {
+            max-width: 100%;
+        }
+
+        .links {
+            background: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 8px 15px 8px 0;
+            color: #8ab;
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .back-top {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-top a {
+            color: #aaa;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #bbb;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body id="top">
+
+    <h1>🏸 羽毛球运动</h1>
+
+    <nav>
+        <a href="#intro">简介</a>
+        <a href="#rules">规则</a>
+        <a href="#benefits">好处</a>
+        <a href="#resources">更多资源</a>
+    </nav>
+
+    <!-- 简介 -->
+    <section id="intro">
+        <h2>🎯 运动简介</h2>
+        <p>羽毛球是一项老少皆宜的室内运动，使用球拍击打羽毛球过网。它既可以作为休闲娱乐，也是奥运会正式比赛项目。</p>
+        
+        <div class="image-container">
+            <svg width="200" height="120" viewBox="0 0 200 120">
+                <rect width="200" height="120" fill="#f0f8f0"/>
+                <line x1="100" y1="10" x2="100" y2="110" stroke="#cdc" stroke-width="2"/>
+                <rect x="20" y="20" width="160" height="80" fill="none" stroke="#bdb" stroke-width="2"/>
+                <ellipse cx="60" cy="60" rx="8" ry="12" fill="#fef"/>
+                <line x1="60" y1="72" x2="60" y2="90" stroke="#dcd" stroke-width="2"/>
+                <ellipse cx="140" cy="60" rx="8" ry="12" fill="#fef"/>
+                <line x1="140" y1="72" x2="140" y2="90" stroke="#dcd" stroke-width="2"/>
+            </svg>
+            <p style="color:#aaa; font-size:14px;">羽毛球场地示意图</p>
+        </div>
+        
+        <div class="back-top"><a href="#top">↑ 返回顶部</a></div>
+    </section>
+
+    <!-- 规则 -->
+    <section id="rules" class="section-green">
+        <h2>📋 基本规则</h2>
+        <p>比赛分为单打和双打，采用21分制，三局两胜。发球时球必须从腰部以下击出，落入对角发球区。球落地、触网或出界则对方得分。</p>
+        
+        <div class="image-container">
+            <svg width="160" height="100" viewBox="0 0 160 100">
+                <rect width="160" height="100" fill="#f8f5f0"/>
+                <circle cx="80" cy="35" r="20" fill="#fec"/>
+                <text x="80" y="40" text-anchor="middle" fill="#b98" font-size="20">21</text>
+                <text x="80" y="70" text-anchor="middle" fill="#aaa" font-size="12">三局两胜</text>
+            </svg>
+        </div>
+        
+        <div class="back-top"><a href="#top">↑ 返回顶部</a></div>
+    </section>
+
+    <!-- 好处 -->
+    <section id="benefits" class="section-orange">
+        <h2>💪 运动好处</h2>
+        <p>羽毛球能锻炼全身肌肉，提高心肺功能和反应速度。它也是很好的社交活动，适合与朋友家人一起参与，有助于放松身心。</p>
+        
+        <div class="image-container">
+            <svg width="180" height="80" viewBox="0 0 180 80">
+                <rect width="180" height="80" fill="#f5f8fa"/>
+                <circle cx="40" cy="40" r="25" fill="#e8f4e8"/>
+                <text x="40" y="45" text-anchor="middle" fill="#9b9" font-size="12">健康</text>
+                <circle cx="90" cy="40" r="25" fill="#fef0e8"/>
+                <text x="90" y="45" text-anchor="middle" fill="#ca9" font-size="12">快乐</text>
+                <circle cx="140" cy="40" r="25" fill="#e8f0f8"/>
+                <text x="140" y="45" text-anchor="middle" fill="#9ac" font-size="12">社交</text>
+            </svg>
+        </div>
+        
+        <div class="back-top"><a href="#top">↑ 返回顶部</a></div>
+    </section>
+
+    <!-- 更多资源 -->
+    <section id="resources" class="section-blue">
+        <h2>🔗 更多资源</h2>
+        
+        <div class="links">
+            <p style="text-indent:0; margin-bottom:10px;"><strong>官方网站：</strong></p>
+            <a href="https://www.bwfbadminton.com/" target="_blank">世界羽联官网 ↗</a>
+            <a href="https://www.olympic.org/badminton" target="_blank">奥运会羽毛球 ↗</a>
+            
+            <p style="text-indent:0; margin: 15px 0 10px;"><strong>学习视频：</strong></p>
+            <a href="https://www.youtube.com/results?search_query=badminton+tutorial" target="_blank">YouTube羽毛球教程 ↗</a>
+            <a href="https://www.bilibili.com/search?keyword=羽毛球教学" target="_blank">B站羽毛球教学 ↗</a>
+        </div>
+        
+        <div class="back-top"><a href="#top">↑ 返回顶部</a></div>
+    </section>
+
+    <footer>
+        <p>© 2025 羽毛球运动介绍</p>
+    </footer>
+
+</body>
+</html>
